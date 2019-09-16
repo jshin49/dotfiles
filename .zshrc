@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jmshin/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.dlamirc
 
 # User specific aliases and functions
-. /home/ec2-user/anaconda3/etc/profile.d/conda.sh
+. $HOME/anaconda3/etc/profile.d/conda.sh
 
 # User specific environment and startup programs
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
