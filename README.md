@@ -1,6 +1,6 @@
 # dotfiles
 
-Dotfile configurations for AWS AMI GPU Instances
+Dotfile configurations for AWS Deep Learning AMI GPU Instances
 
 ## Install
 ```
