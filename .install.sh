@@ -1,3 +1,7 @@
+# Install make
+sudo apt-get install build-essential
+
+
 ################# Zsh #################
 
 # Install ZSH & Oh my zsh
