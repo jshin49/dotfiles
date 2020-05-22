@@ -98,9 +98,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#Source .dlamirc in .bashrc
-source ~/.dlamirc
-
 # User specific aliases and functions
 . $HOME/anaconda3/etc/profile.d/conda.sh
 
