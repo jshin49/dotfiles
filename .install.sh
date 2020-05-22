@@ -1,5 +1,5 @@
 # Install make
-sudo apt-get install build-essential
+sudo apt-get install libevent-dev ncurses-dev build-essential bison pkg-config
 sudo apt-get install -y libssl-dev libreadline-dev zlib1g-dev
 
 ################# Zsh #################
