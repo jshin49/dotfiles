@@ -1,6 +1,6 @@
 # dotfiles
 
-Dotfile configurations for AWS Deep Learning AMI GPU Instances, many parts inspired and taken from [J-Min's repo](https://github.com/j-min/dotfiles)
+Dotfile configurations for Ubuntu, many parts inspired and taken from [J-Min's repo](https://github.com/j-min/dotfiles)
 
 ## Install
 ```
