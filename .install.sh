@@ -2,14 +2,6 @@
 sudo apt-get install -y libevent-dev ncurses-dev build-essential bison pkg-config
 sudo apt-get install -y curl libssl-dev libreadline-dev zlib1g-dev
 
-################# Zsh #################
-
-# Install ZSH & Oh my zsh
-sudo apt-get update & sudo apt upgrade
-sudo apt install zsh
-sudo apt-get install powerline fonts-powerline
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-sudo chsh -s $(which zsh)
 
 ################# Vim #################
 # vim-plug
