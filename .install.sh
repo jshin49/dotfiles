@@ -63,3 +63,13 @@ gem install --user-install tmuxinator
 
 # tpm
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+
+################# Zsh #################
+
+# Install ZSH & Oh my zsh
+sudo apt-get update & sudo apt upgrade
+sudo apt install zsh
+sudo apt-get install powerline fonts-powerline
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo chsh -s $(which zsh)
