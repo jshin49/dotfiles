@@ -38,12 +38,14 @@ rbenv install $RUBY_VERSION
 rbenv global $RUBY_VERSION
 
 ################# Tmux #################
+cd~/
 wget https://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz
 tar xzvf libevent-2.0.21-stable.tar.gz
 cd libevent-2.0.21-stable
 ./configure && make
 sudo make install
 
+cd ~/
 wget https://github.com/tmux/tmux/releases/download/2.8/tmux-2.8.tar.gz
 tar xzf tmux-2.8.tar.gz
 cd tmux-2.8
