@@ -27,18 +27,18 @@ ln -sf ~/.vimrc ~/.config/nvim/init.vim
 
 ################# Ruby #################
 # sudo yum install -y readline-devel
-# sudo apt-get install lib32readline7 lib32readline-dev 
+sudo apt-get install lib32readline7 lib32readline-dev 
 # git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 # git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 # git clone https://github.com/rbenv/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
-# source $HOME/.path.sh
+source $HOME/.path.sh
 
 # RUBY_VERSION='2.6.3'
 # rbenv install $RUBY_VERSION
 # rbenv global $RUBY_VERSION
 
 ################# Tmux #################
-cd~/
+cd ~/
 wget https://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz
 tar xzvf libevent-2.0.21-stable.tar.gz
 cd libevent-2.0.21-stable
