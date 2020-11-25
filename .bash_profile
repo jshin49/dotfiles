@@ -1,7 +1,7 @@
 # .bash_profile
 
 #Source .dlamirc in .bashrc
-source ~/.dlamirc
+# source ~/.dlamirc
 
 # User specific aliases and functions
 # . $HOME/anaconda3/etc/profile.d/conda.sh
