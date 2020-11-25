@@ -4,7 +4,7 @@
 source ~/.dlamirc
 
 # User specific aliases and functions
-. $HOME/anaconda3/etc/profile.d/conda.sh
+# . $HOME/anaconda3/etc/profile.d/conda.sh
 
 # User specific environment and startup programs
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
