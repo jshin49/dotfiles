@@ -1,6 +1,7 @@
 # Install make
+sudo apt-get update
 sudo apt-get install -y libevent-dev ncurses-dev build-essential bison pkg-config
-sudo apt-get install -y less curl libssl-dev libreadline-dev zlib1g-dev
+sudo apt-get install -y curl libssl-dev libreadline-dev zlib1g-dev tmux
 
 
 ################# Vim #################
@@ -44,7 +45,6 @@ source $HOME/.path.sh
 # cd libevent-2.0.21-stable
 # ./configure && make
 # sudo make install
-sudo apt-get install -y libevent-dev tmux
 
 # cd ~/
 # wget https://github.com/tmux/tmux/releases/download/2.8/tmux-2.8.tar.gz
