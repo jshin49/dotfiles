@@ -1,6 +1,6 @@
 # Install make
 sudo apt-get install -y libevent-dev ncurses-dev build-essential bison pkg-config
-sudo apt-get install -y curl libssl-dev libreadline-dev zlib1g-dev
+sudo apt-get install -y less curl libssl-dev libreadline-dev zlib1g-dev
 
 
 ################# Vim #################
@@ -44,14 +44,14 @@ source $HOME/.path.sh
 # cd libevent-2.0.21-stable
 # ./configure && make
 # sudo make install
-sudo apt install libevent-dev
+sudo apt-get install -y libevent-dev tmux
 
-cd ~/
-wget https://github.com/tmux/tmux/releases/download/2.8/tmux-2.8.tar.gz
-tar xzf tmux-2.8.tar.gz
-cd tmux-2.8
-./configure && make
-sudo make install
+# cd ~/
+# wget https://github.com/tmux/tmux/releases/download/2.8/tmux-2.8.tar.gz
+# tar xzf tmux-2.8.tar.gz
+# cd tmux-2.8
+# ./configure && make
+# sudo make install
 
 # tmuxinator
 # gem install --user-install tmuxinator
@@ -59,6 +59,10 @@ sudo make install
 # tpm
 # git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+cd ~/
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
 
 ################# Zsh #################
 
